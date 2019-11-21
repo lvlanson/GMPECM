@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="Hat auch rechte Gabel">
+            <graphics>
+                <position x="450.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>Hat auch rechte Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Hat linke Gabel">
+            <graphics>
+                <position x="345.0" y="435.0"/>
+            </graphics>
+            <name>
+                <value>Hat linke Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Hat Linke Gabel">
+            <graphics>
+                <position x="780.0" y="180.0"/>
+            </graphics>
+            <name>
+                <value>Hat Linke Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Hat Rechte Gabel">
+            <graphics>
+                <position x="765.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>Hat Rechte Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Linke Gabel(P1)    Rechte Gabel(P2)">
+            <graphics>
+                <position x="570.0" y="125.0"/>
+            </graphics>
+            <name>
+                <value>Linke Gabel(P1)    Rechte Gabel(P2)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Linke Gabel(P2)">
+            <graphics>
+                <position x="945.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>Linke Gabel(P2)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P3 Hat Linke Gabel">
+            <graphics>
+                <position x="735.0" y="480.0"/>
+            </graphics>
+            <name>
+                <value>P3 Hat Linke Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P3 Hat Rechte Gabel">
+            <graphics>
+                <position x="870.0" y="480.0"/>
+            </graphics>
+            <name>
+                <value>P3 Hat Rechte Gabel</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Philosoph_2 denkt">
+            <graphics>
+                <position x="765.0" y="45.0"/>
+            </graphics>
+            <name>
+                <value>Philosoph_2 denkt</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Philosoph_3 denkt">
+            <graphics>
+                <position x="885.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>Philosoph_3 denkt</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Philosoph Denkt">
+            <graphics>
+                <position x="465.0" y="210.0"/>
+            </graphics>
+            <name>
+                <value>Philosoph Denkt</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="Rechte Gabel(P1)">
+            <graphics>
+                <position x="555.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>Rechte Gabel(P1)</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="Essen">
+            <graphics>
+                <position x="465.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>Essen</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="P_2 isst">
+            <graphics>
+                <position x="855.0" y="135.0"/>
+            </graphics>
+            <name>
+                <value>P_2 isst</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="P3 isst">
+            <graphics>
+                <position x="945.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>P3 isst</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T0">
+            <graphics>
+                <position x="345.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T1">
+            <graphics>
+                <position x="435.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T3">
+            <graphics>
+                <position x="705.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T4">
+            <graphics>
+                <position x="855.0" y="210.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T6">
+            <graphics>
+                <position x="780.0" y="555.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T7">
+            <graphics>
+                <position x="810.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>T7</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="Essen to Linke Gabel(P1)    Rechte Gabel(P2)" source="Essen" target="Linke Gabel(P1)    Rechte Gabel(P2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="477" y="312" curvePoint="false"/>
+            <arcpath id="001" x="574" y="149" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Essen to Philosoph Denkt" source="Essen" target="Philosoph Denkt">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="477" y="312" curvePoint="false"/>
+            <arcpath id="001" x="477" y="236" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Essen to Rechte Gabel(P1)" source="Essen" target="Rechte Gabel(P1)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="477" y="342" curvePoint="false"/>
+            <arcpath id="001" x="561" y="538" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hat auch rechte Gabel to Essen" source="Hat auch rechte Gabel" target="Essen">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="465" y="387" curvePoint="false"/>
+            <arcpath id="001" x="477" y="342" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hat linke Gabel to T1" source="Hat linke Gabel" target="T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="371" y="452" curvePoint="false"/>
+            <arcpath id="001" x="441" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hat Linke Gabel to T4" source="Hat Linke Gabel" target="T4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="806" y="197" curvePoint="false"/>
+            <arcpath id="001" x="862" y="217" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Hat Rechte Gabel to P_2 isst" source="Hat Rechte Gabel" target="P_2 isst">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="786" y="240" curvePoint="false"/>
+            <arcpath id="001" x="861" y="155" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Linke Gabel(P1)    Rechte Gabel(P2) to T0" source="Linke Gabel(P1)    Rechte Gabel(P2)" target="T0">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="570" y="146" curvePoint="false"/>
+            <arcpath id="001" x="361" y="332" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Linke Gabel(P1)    Rechte Gabel(P2) to T3" source="Linke Gabel(P1)    Rechte Gabel(P2)" target="T3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="596" y="136" curvePoint="false"/>
+            <arcpath id="001" x="711" y="132" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Linke Gabel(P2) to T4" source="Linke Gabel(P2)" target="T4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="948" y="344" curvePoint="false"/>
+            <arcpath id="001" x="871" y="222" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Linke Gabel(P2) to T7" source="Linke Gabel(P2)" target="T7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="943" y="362" curvePoint="false"/>
+            <arcpath id="001" x="827" y="412" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_2 isst to Linke Gabel(P1)    Rechte Gabel(P2)" source="P_2 isst" target="Linke Gabel(P1)    Rechte Gabel(P2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="861" y="148" curvePoint="false"/>
+            <arcpath id="001" x="596" y="137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_2 isst to Linke Gabel(P2)" source="P_2 isst" target="Linke Gabel(P2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="867" y="162" curvePoint="false"/>
+            <arcpath id="001" x="950" y="343" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_2 isst to Philosoph_2 denkt" source="P_2 isst" target="Philosoph_2 denkt">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="862" y="141" curvePoint="false"/>
+            <arcpath id="001" x="787" y="67" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 Hat Linke Gabel to T7" source="P3 Hat Linke Gabel" target="T7">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="757" y="481" curvePoint="false"/>
+            <arcpath id="001" x="816" y="417" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 Hat Rechte Gabel to P3 isst" source="P3 Hat Rechte Gabel" target="P3 isst">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="893" y="501" curvePoint="false"/>
+            <arcpath id="001" x="952" y="546" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 isst to Linke Gabel(P2)" source="P3 isst" target="Linke Gabel(P2)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="957" y="537" curvePoint="false"/>
+            <arcpath id="001" x="957" y="371" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 isst to Philosoph_3 denkt" source="P3 isst" target="Philosoph_3 denkt">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="951" y="560" curvePoint="false"/>
+            <arcpath id="001" x="907" y="601" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 isst to Rechte Gabel(P1)" source="P3 isst" target="Rechte Gabel(P1)">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="951" y="553" curvePoint="false"/>
+            <arcpath id="001" x="581" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Philosoph_2 denkt to T3" source="Philosoph_2 denkt" target="T3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="767" y="68" curvePoint="false"/>
+            <arcpath id="001" x="722" y="127" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Philosoph_3 denkt to T6" source="Philosoph_3 denkt" target="T6">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="883" y="605" curvePoint="false"/>
+            <arcpath id="001" x="796" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Philosoph Denkt to T0" source="Philosoph Denkt" target="T0">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="465" y="231" curvePoint="false"/>
+            <arcpath id="001" x="362" y="322" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Rechte Gabel(P1) to T1" source="Rechte Gabel(P1)" target="T1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="554" y="543" curvePoint="false"/>
+            <arcpath id="001" x="451" y="477" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="Rechte Gabel(P1) to T6" source="Rechte Gabel(P1)" target="T6">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="581" y="553" curvePoint="false"/>
+            <arcpath id="001" x="786" y="567" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T0 to Hat linke Gabel" source="T0" target="Hat linke Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="357" y="342" curvePoint="false"/>
+            <arcpath id="001" x="357" y="432" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T1 to Hat auch rechte Gabel" source="T1" target="Hat auch rechte Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="447" y="462" curvePoint="false"/>
+            <arcpath id="001" x="458" y="416" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T3 to Hat Linke Gabel" source="T3" target="Hat Linke Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="721" y="137" curvePoint="false"/>
+            <arcpath id="001" x="780" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T4 to Hat Rechte Gabel" source="T4" target="Hat Rechte Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="861" y="227" curvePoint="false"/>
+            <arcpath id="001" x="791" y="247" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T6 to P3 Hat Linke Gabel" source="T6" target="P3 Hat Linke Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="792" y="552" curvePoint="false"/>
+            <arcpath id="001" x="756" y="503" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T7 to P3 Hat Rechte Gabel" source="T7" target="P3 Hat Rechte Gabel">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="826" y="422" curvePoint="false"/>
+            <arcpath id="001" x="872" y="480" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>

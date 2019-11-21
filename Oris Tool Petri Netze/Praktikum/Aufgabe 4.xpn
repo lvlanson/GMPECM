@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tpn-editor>
+  <tpn-entities>
+    <place uuid="61359f05-57d5-4dba-a61c-33c408a4d3fc" x="946" y="252">
+      <features/>
+      <properties>
+        <property id="0.default.name" name="Schiene ist belegt" satellite-x="924" satellite-y="274"/>
+        <property id="default.marking" marking="0"/>
+      </properties>
+    </place>
+    <place uuid="b1f027a8-c745-4738-a9e3-48f1ef000e70" x="652" y="252">
+      <features/>
+      <properties>
+        <property id="0.default.name" name="Schiene ist frei" satellite-x="630" satellite-y="274"/>
+        <property id="default.marking" marking="1"/>
+      </properties>
+    </place>
+    <transition rotation-angle="0.0" uuid="13e6e890-ebe6-4c9a-9847-ef04538d5ef7" x="446" y="406">
+      <features/>
+      <properties>
+        <property id="0.default.name" name="Zug kommt" satellite-x="464" satellite-y="418"/>
+        <property enabling-function="" id="10.default.enablingFunction"/>
+        <property id="11.default.markingUpdate" marking-update=""/>
+        <property id="12.default.resetTransitions" reset-transitions=""/>
+      </properties>
+    </transition>
+    <transition rotation-angle="0.0" uuid="24e91665-a0c2-4940-886e-f09e38170d0f" x="761" y="250">
+      <features/>
+      <properties>
+        <property id="0.default.name" name="t2" satellite-x="779" satellite-y="262"/>
+        <property enabling-function="" id="10.default.enablingFunction"/>
+        <property id="11.default.markingUpdate" marking-update=""/>
+        <property id="12.default.resetTransitions" reset-transitions=""/>
+      </properties>
+    </transition>
+    <transition rotation-angle="0.0" uuid="88c7dbfd-7647-433a-a5a1-9b26bc0d5668" x="446" y="118">
+      <features>
+        <feature id="transition.stochastic"/>
+      </features>
+      <properties>
+        <property id="0.default.name" name="t1" satellite-x="464" satellite-y="130"/>
+        <property enabling-function="" id="10.default.enablingFunction"/>
+        <property id="11.default.markingUpdate" marking-update=""/>
+        <property id="12.default.resetTransitions" reset-transitions=""/>
+        <property id="transition.stochastic" k="2" lambda="1" property-data-type="4.type.erlang" satellite-x="446" satellite-y="148"/>
+      </properties>
+    </transition>
+    <arc from="88c7dbfd-7647-433a-a5a1-9b26bc0d5668" to="61359f05-57d5-4dba-a61c-33c408a4d3fc" uuid="390e9718-bc1d-4168-98bd-7fc3b55ed0d7">
+      <features/>
+      <properties/>
+    </arc>
+    <arc from="13e6e890-ebe6-4c9a-9847-ef04538d5ef7" to="61359f05-57d5-4dba-a61c-33c408a4d3fc" uuid="61fd4e01-2933-48e9-9c9d-b2af3960ea5e">
+      <features/>
+      <properties/>
+    </arc>
+    <arc from="61359f05-57d5-4dba-a61c-33c408a4d3fc" to="24e91665-a0c2-4940-886e-f09e38170d0f" uuid="63a4f4b1-b828-4645-962c-59f52fad694b">
+      <features/>
+      <properties/>
+    </arc>
+    <arc from="b1f027a8-c745-4738-a9e3-48f1ef000e70" to="88c7dbfd-7647-433a-a5a1-9b26bc0d5668" uuid="ad0e69ec-619b-48b6-ba7a-9f7cc30299fb">
+      <features/>
+      <properties/>
+    </arc>
+    <arc from="24e91665-a0c2-4940-886e-f09e38170d0f" to="b1f027a8-c745-4738-a9e3-48f1ef000e70" uuid="d81b64a1-d385-4fb1-b853-e4c792d78e94">
+      <features/>
+      <properties/>
+    </arc>
+    <arc from="b1f027a8-c745-4738-a9e3-48f1ef000e70" to="13e6e890-ebe6-4c9a-9847-ef04538d5ef7" uuid="f722cb34-195d-4aaf-8acf-ab39a3db4d71">
+      <features/>
+      <properties/>
+    </arc>
+  </tpn-entities>
+</tpn-editor>

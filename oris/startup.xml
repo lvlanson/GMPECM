@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="display-name">Oris2</entry>
+	<entry key="app-name">oris2</entry>
+	<entry key="key">5621da955f232d715d2234fb583d32b8</entry>
+	<entry key="update-url">http://suman.dinfo.unifi.it/UpdaterWeb</entry>
+	<entry key="startup-cmd">java -jar oris-runner-2.3.0.jar</entry>
+	<entry key="update-prompt">true</entry>
+	<entry key="excluded-files">uninst.exe</entry>
+	<entry key="version">18</entry>
+</properties>
